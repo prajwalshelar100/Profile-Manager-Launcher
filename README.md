@@ -62,6 +62,7 @@ Planned features for future updates:
 - Sync between devices
 - Search functionality
 - Keyboard shortcuts
+- All workflows orchestration - another application with profile-manager/launcher as an added feature.
 
 ## Contributing
 
