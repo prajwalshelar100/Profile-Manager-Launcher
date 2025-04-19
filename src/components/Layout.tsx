@@ -1,4 +1,4 @@
-
+import { Analytics } from "@vercel/analytics/react"
 import React from 'react';
 import { SidebarProvider, Sidebar, SidebarContent, SidebarTrigger, SidebarMenu, SidebarMenuItem, SidebarMenuButton, SidebarHeader, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarFooter } from "@/components/ui/sidebar";
 import { Home, Settings, BookOpen, Github, Layers, LogOut, User, ChevronDown } from 'lucide-react';
@@ -152,6 +152,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
           <main className="flex-1 p-4 md:p-6">
             {children}
+            <Analytics />
           </main>
         </div>
       </div>
